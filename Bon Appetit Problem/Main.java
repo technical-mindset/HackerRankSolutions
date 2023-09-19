@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         
         System.out.println(bonAppetit(Arrays.asList(2,5,3,8,2), 3, 10));
+        
     }
 
     public static void bonAppetit(List<Integer> bill, int k, int b) {
