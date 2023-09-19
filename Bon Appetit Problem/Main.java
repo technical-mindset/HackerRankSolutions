@@ -19,6 +19,7 @@ public class Main {
         if (b_Accutal/2 == b) {
             System.out.println("Bon Appetit");
         }
+            
         else if (b_Accutal < b) {
             System.out.println(b - b_Accutal);
         }
