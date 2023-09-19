@@ -15,6 +15,7 @@ public class Main {
                 b_Accutal += bill.get(i);
             }
         }
+        
         if (b_Accutal/2 == b) {
             System.out.println("Bon Appetit");
         }
