@@ -3,11 +3,9 @@ public class Main {
 
         System.out.println("git checkout main");
 
-    }
         System.out.println(pageCount(5,2));
 
     }
-
 
     public static int pageCount(int n, int p) {
 
