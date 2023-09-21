@@ -14,7 +14,7 @@ public class Main {
                 
                 if (upAndDown == 0) {
                     valleys++;
-                }
+                }upAndDown--;
 
             }
         }
