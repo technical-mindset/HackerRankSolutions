@@ -11,10 +11,11 @@ public class Main {
                 upAndDown++;
             }
             else if (path.charAt(i) =='D'){
-                upAndDown--;
+                
                 if (upAndDown == 0) {
                     valleys++;
                 }
+                upAndDown--;
 
             }
         }
