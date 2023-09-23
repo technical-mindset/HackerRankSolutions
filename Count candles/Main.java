@@ -17,7 +17,6 @@ arr.add(1);
         
        System.out.println(candles(arr));
     
-
     }
        public static Integer candles(List<Integer> candles){
         Integer tCandles = Integer.MIN_VALUE;
