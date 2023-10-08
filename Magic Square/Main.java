@@ -25,6 +25,7 @@ public class Main {
         }};
 
         for (int i = 0; i < 8; i++) {
+            // --- getting single complete matrix 
             int [][] matrix = posibleSquares[i];
 
             for (int j = 0; j < matrix.length; j++) {
