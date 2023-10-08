@@ -33,7 +33,7 @@ public class Main {
             for (int j = 0; j < matrix.length; j++) {
 
                 int [] eachColumnOfMatrix = matrix[j];
-                List<Integer> s2 = s.get(j);
+                List<Integer> s2 = s.get(j); // --- taking each column of square
 
                 for (int k = 0; k < s2.size(); k++) {
                     if (eachColumnOfMatrix[k] != s2.get(k)) {
