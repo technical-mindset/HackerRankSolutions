@@ -4,10 +4,12 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        
         List<List<Integer>> lists = new ArrayList<>();
         lists.add(List.of(7, 6, 5));
         lists.add(List.of(7, 2, 8));
         lists.add(List.of(5, 3, 4));
+        
         System.out.println(formingMagicSquare(lists));;
     }
     public static int formingMagicSquare(List<List<Integer>> s) {
