@@ -4,10 +4,12 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        
         List<List<Integer>> lists = new ArrayList<>();
         lists.add(List.of(7, 6, 5));
         lists.add(List.of(7, 2, 8));
         lists.add(List.of(5, 3, 4));
+        
         System.out.println(formingMagicSquare(lists));;
     }
     public static int formingMagicSquare(List<List<Integer>> s) {
@@ -25,14 +27,16 @@ public class Main {
         }};
 
         for (int i = 0; i < 8; i++) {
+            // --- getting single complete matrix 
             int [][] matrix = posibleSquares[i];
 
             for (int j = 0; j < matrix.length; j++) {
 
                 int [] eachColumnOfMatrix = matrix[j];
-                List<Integer> s2 = s.get(j);
+                List<Integer> s2 = s.get(j); // --- taking each column of square
 
                 for (int k = 0; k < s2.size(); k++) {
+                    
                     if (eachColumnOfMatrix[k] != s2.get(k)) {
                         count += Math.abs(eachColumnOfMatrix[k] - s2.get(k));
                     }
