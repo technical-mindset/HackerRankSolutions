@@ -22,6 +22,7 @@ public class Main {
                     newArr.add(a.get(j));
                 }
             }
+            
             // removing the extra numbers which has the difference greater than 1
 
             for (int j = 0; j < newArr.size(); j++) {
