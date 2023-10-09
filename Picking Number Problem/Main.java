@@ -15,13 +15,18 @@ public class Main {
 
         for (int i = 0; i < a.size(); i++) {
             List<Integer> newArr = new ArrayList<>();
+
             for (int j = 0; j < a.size(); j++) {
+
                 if (Math.abs(a.get(i) - a.get(j)) == 0 || Math.abs(a.get(i) - a.get(j)) == 1){
                     newArr.add(a.get(j));
                 }
             }
+
             for (int j = 0; j < newArr.size(); j++) {
+
                 for (int k = 0; k < newArr.size(); k++) {
+
                     if (Math.abs(newArr.get(j) - newArr.get(k)) > 1) {
                         newArr.remove(newArr.get(k));
                     }
