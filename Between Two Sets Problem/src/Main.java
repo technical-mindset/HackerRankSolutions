@@ -16,6 +16,7 @@ public class Main {
         
         // getting the execution time
         long t1= System.nanoTime() /1000;
+        
 //        System.out.println(getTotalX(a,b));
         long t2 = System.nanoTime()/1000;
 
