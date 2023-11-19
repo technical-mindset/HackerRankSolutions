@@ -8,6 +8,7 @@ public class Main {
         
     }
     public static int hurdleRace(int k, List<Integer> height) {
+        
        int max = Collections.max(height);
        return max > k ? Math.abs(k - max) : 0;
     }
