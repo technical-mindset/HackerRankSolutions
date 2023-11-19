@@ -12,8 +12,7 @@ public class Main {
         for (Integer i: list) {
             System.out.print(i + " ");
         }
-        // 60 75 80 90 100
-        // 50 65 77 90 102
+
 
     }
     public static List<Integer> climbingLeaderboard(List<Integer> ranked, List<Integer> player) {
