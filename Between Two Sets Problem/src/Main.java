@@ -1,6 +1,8 @@
+package com.solution
 import java.util.*;
 
 public class Main {
+    
     public static void main(String[] args) {
        
         List<Integer> a = new ArrayList<>();
@@ -14,7 +16,8 @@ public class Main {
         
         // getting the execution time
         long t1= System.nanoTime() /1000;
-//        System.out.println(getTotalX(a,b));
+        
+        // System.out.println(getTotalX(a,b));
         long t2 = System.nanoTime()/1000;
 
         System.out.println(t2-t1);
