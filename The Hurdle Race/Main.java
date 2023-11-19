@@ -11,5 +11,6 @@ public class Main {
         
        int max = Collections.max(height);
        return max > k ? Math.abs(k - max) : 0;
+        
     }
 }
