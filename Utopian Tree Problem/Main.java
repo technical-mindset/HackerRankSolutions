@@ -2,6 +2,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(utopianTree(5));
     }
+
+    // flag for incrementation as per requirement !!
     public static int utopianTree(int n) {
         boolean flag = true;
         int height = 0;
