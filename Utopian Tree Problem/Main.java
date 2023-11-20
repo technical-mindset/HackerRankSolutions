@@ -15,6 +15,7 @@ public class Main {
             flag = (flag == true ? false : true);
 
         }
+        
         return height;
     }
 }
