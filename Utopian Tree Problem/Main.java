@@ -10,6 +10,7 @@ public class Main {
         int height = 0;
 
         for (int i = 0; i <= n; i++) {
+            
             height = (flag == true ? height + 1 : height * 2);
             flag = (flag == true ? false : true);
 
