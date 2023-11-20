@@ -5,7 +5,6 @@ public class Main {
     public static void main(String[] args) {
         List<Integer> list =
                 climbingLeaderboard(
-//                        List.of(100, 100, 50, 40, 40, 20, 10),
                         List.of(100, 100, 50, 40, 40, 20, 10),
                         List.of(5, 25, 50, 120)
                 );
