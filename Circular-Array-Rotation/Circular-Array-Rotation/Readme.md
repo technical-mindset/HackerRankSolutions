@@ -11,7 +11,7 @@ Here `k` is the number of rotations on `a`, and `queries` holds the list of indi
 
 Now return the values from the zero-based indices `1` and `2` as indicated in the `queries` array.
 `a[1] = 1`\
-`a[2] = 2`\
+`a[2] = 2`
 
 ## Function Description :-
 
