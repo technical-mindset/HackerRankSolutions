@@ -16,7 +16,7 @@ public class Main {
         for (int i = 0; i < p.size(); i++) {
             int j = p.indexOf(i+1); // getting index of sequential numbers in 'p'
             int k = p.indexOf(j+1); // taking the incremented index like '1' instead of '0'
-            permutations.add(k+1); // adding '1' for '1 to n' instead of 
+            permutations.add(k+1); // adding '1' for '1 to n' instead of '0 to (n-1)'
         }
         return permutations;
     }
