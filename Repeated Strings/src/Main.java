@@ -52,6 +52,7 @@ public class Main {
             return count;
         }
     }
+    /** Old concrete logic which is not optimize for large data sets (taking O(n2) time) */
 //    public static long repeatedString(String s, long n) {
 //        int len = s.length(), count = 0;
 //        /** when the length = 1 and contains 'a' */
